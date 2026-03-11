@@ -1,0 +1,27 @@
+dependencies:
+  idf:
+    source:
+      type: idf
+    version: 5.5.2
+  myADC:
+    component_hash: dddb1ae79c01a1914d24ee62489373ec00521ef1fe13859b749cbb64ad87e730
+    dependencies: []
+    source:
+      git: https://github.com/Josedmr/Projecten_Microcontroller.git
+      path: components/myADC
+      type: git
+    version: 33dd17710bef21776bf6ac8bf5d67054d686db33
+  myGPIO:
+    component_hash: bd9d201558507995191ec8e948e0a4bd3314c377f5e9e8b3c987c807090667ad
+    dependencies: []
+    source:
+      git: https://github.com/Josedmr/Projecten_Microcontroller.git
+      path: components/myGPIO
+      type: git
+    version: 33dd17710bef21776bf6ac8bf5d67054d686db33
+direct_dependencies:
+- myADC
+- myGPIO
+manifest_hash: 6be5ae6007819b011939a9731c8778dd97aba7a2b474a92b365f81b3fdb889c6
+target: esp32
+version: 2.0.0
